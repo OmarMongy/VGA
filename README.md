@@ -74,7 +74,7 @@ Input :
 Output :
 - 10 MHz clock suitable for the design
 
- ![Architecture Of VGA Driver ](<img src="https://i.ibb.co/ckqbkbS/Screenshot-2023-09-29-195505.png" alt="Screenshot-2023-09-29-195505" border="0">)
+ ![Architecture Of VGA Driver ](https://i.ibb.co/ckqbkbS/Screenshot-2023-09-29-195505.png>)
 ## Usage
 To use this VGA Controller design, you can include the Verilog modules in your FPGA project and instantiate them as needed. Ensure that you configure the design parameters (e.g., resolution, refresh rate) to match the VGA standard specifications for your target display.
 
