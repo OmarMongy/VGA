@@ -59,6 +59,22 @@ The VGA controller module combines the horizontal and vertical counters to produ
 
 ![Architecture Of VGA](https://i.ibb.co/T1mb2bQ/Screenshot-2023-09-12-032548.png)
 
+### Single Port Memory ROM
+Inputs:
+- clk: Clock input
+- reset_n: Active low reset
+- addr : 16 bit address
+- rd_ena : Enable signle for reading data
+Output:
+- 3bit data
+
+### PLL
+Input :
+- FPGA Cyclone IV clk
+Output :
+- 10 MHz clock suitable for the design
+
+ ![Architecture Of VGA Driver ](<img src="https://i.ibb.co/ckqbkbS/Screenshot-2023-09-29-195505.png" alt="Screenshot-2023-09-29-195505" border="0">)
 ## Usage
 To use this VGA Controller design, you can include the Verilog modules in your FPGA project and instantiate them as needed. Ensure that you configure the design parameters (e.g., resolution, refresh rate) to match the VGA standard specifications for your target display.
 
