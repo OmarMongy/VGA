@@ -79,7 +79,7 @@ Output :
 To use this VGA design, you can include the Verilog modules in your FPGA project and instantiate them as needed. Ensure that you configure the design parameters (e.g., resolution, refresh rate) to match the VGA standard specifications for your target display.
 
 ## Simulation
-This repository includes simulation files and testbenches to verify the functionality of the VGA Controller design. You can simulate the design using a Verilog simulation tool to ensure it adheres to the VGA standard specifications and meets your display requirements before implementation on an FPGA or other hardware.
+This repository includes simulation files and testbenches to verify the functionality of the design. You can simulate the design using a Verilog simulation tool to ensure it adheres to the VGA standard specifications and meets your display requirements before implementation on an FPGA or other hardware.
 
 ## License
 This VGA Controller design is provided under the MIT License. Feel free to modify and use it in your projects, ensuring it complies with the VGA standard
