@@ -76,7 +76,7 @@ Output :
 
  ![Architecture Of VGA Driver ](https://i.ibb.co/ckqbkbS/Screenshot-2023-09-29-195505.png>)
 ## Usage
-To use this VGA Controller design, you can include the Verilog modules in your FPGA project and instantiate them as needed. Ensure that you configure the design parameters (e.g., resolution, refresh rate) to match the VGA standard specifications for your target display.
+To use this VGA design, you can include the Verilog modules in your FPGA project and instantiate them as needed. Ensure that you configure the design parameters (e.g., resolution, refresh rate) to match the VGA standard specifications for your target display.
 
 ## Simulation
 This repository includes simulation files and testbenches to verify the functionality of the VGA Controller design. You can simulate the design using a Verilog simulation tool to ensure it adheres to the VGA standard specifications and meets your display requirements before implementation on an FPGA or other hardware.
