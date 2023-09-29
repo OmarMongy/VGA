@@ -19,4 +19,4 @@ begin
 end
 
 assign pixel_x = pixel_reg;
-assign done_x = pixel_reg == 10'd799;
+assign done_x = pixel_reg == 10'd320;
