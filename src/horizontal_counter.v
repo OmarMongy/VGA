@@ -20,3 +20,4 @@ end
 
 assign pixel_x = pixel_reg;
 assign done_x = pixel_reg == 10'd320;
+endmodule
